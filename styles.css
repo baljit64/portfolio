@@ -1,0 +1,209 @@
+body{
+ margin: 0;
+  text-align: center;
+}
+p{
+  font-size: 1.25rem;
+  margin:auto;
+  font-family: ,sans-serif;
+}
+span{
+  text-decoration: underline;
+  font-family: ,sans-serif;
+}
+h1{
+  font-size: 2.5rem;
+  font-family: Georgia,arial, sans-serif;;
+margin: 0 auto;
+}
+.hello{
+  margin: 70px auto 40px;
+  font-size: 2rem;
+  color:#3F72AF;
+}
+h2{
+  font-size: 2rem;
+  color:#3F72AF;
+  margin: 0 auto;
+}
+h3{
+  color:#3F72AF;
+}
+hr{
+  border-style: none;
+  border-top-style:dotted;
+  border-color: grey;
+  border-width: 5px;
+  width : 10%;
+  margin:0px auto 100px;
+  background-color:#white;
+}
+/* HACK: starting top container */
+.top{
+   background-color: #ffffff;
+    text-align: center;
+    position: relative;
+}
+.hr-net{
+  border-style: none;
+  border-top-style:dotted;
+  border-color: grey;
+  border-width: 5px;
+  width : 10%;
+  margin:auto;
+  background-color:#white;
+}
+.intro{
+  display: inline-block;
+  width: 40%;
+  margin: 20px auto 100px auto;
+  padding-bottom: 10px;
+  font-size: 1.2rem;
+  line-height:1.5;
+}
+.heading{
+position: relative;
+bottom: 100px;
+color:#3F72AF;
+font-style: normal;
+}
+.sky{ height: 150px;
+  width: 100%;
+  background-color: #ffffff;
+}
+.land{
+  background-color: #ffffff;
+  margin-top: 0;
+}
+.net{
+  background-color: #ffffff ;
+ height: 500px;
+  width: 100%;
+  background: no-repeat;
+}
+/* HACK: starting mid container */
+.profile{
+  background-color: #f7f7f7;
+}
+.baljit{
+  margin-top: 100px;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  align-items: center;
+}
+/* HACK: starting Skills container */
+.myskills{
+padding-top: 0px;
+padding-bottom: 10px;
+}
+/* HACK: skill1 container */
+
+.skill{
+  width: 60%;
+  text-align:left;
+  margin:100px auto 100px auto;
+
+}
+.web-img{ ;
+  width: 28%;
+  float: left;
+   margin-right: 30px;
+}
+.book{
+  width: 28%;
+  float: right;
+   margin-left: 30px;
+   clear: inherit;
+}
+.code{
+  margin-top: 50px;
+  font-size: 1.1rem;
+  line-height:1.5;
+}
+.reading{
+  margin-top: 50px;
+font-size: 1.1rem;
+line-height:1.5;
+}
+
+/* HACK: skill2 container */
+.contact-hr{
+  border-style: none;
+  border-top-style:dotted;
+  border-color: grey;
+  border-width: 5px;
+  width : 10%;
+  margin:150px auto 100px;
+  background-color:#white;
+}
+.contact-msg{
+  width: 50%;
+  line-height: 1.5;
+  font-size: 1.2rem;
+}
+.contact-h3{
+  color:#3F72AF;
+  margin: 40px auto;
+}
+.btn {
+	background-color:#3f71a7;
+	-webkit-border-top-left-radius:9px;
+	-moz-border-radius-topleft:9px;
+	border-top-left-radius:9px;
+	-webkit-border-top-right-radius:9px;
+	-moz-border-radius-topright:9px;
+	border-top-right-radius:9px;
+	-webkit-border-bottom-right-radius:9px;
+	-moz-border-radius-bottomright:9px;
+	border-bottom-right-radius:9px;
+	-webkit-border-bottom-left-radius:9px;
+	-moz-border-radius-bottomleft:9px;
+	border-bottom-left-radius:9px;
+text-indent:0;
+	border:1px solid #3db6bf;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+height:28px;
+	line-height:28px;
+width:128px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #00252e;
+}.btn:hover {
+	background-color:#2aa7bd;
+}
+/* .btn:active {
+	position:relative;
+	top:1px;
+} */
+
+.btn{
+  margin: 40px auto;
+}
+/* HACK: last container */
+.link{
+padding:10px 30px;
+text-decoration: none;
+display: inline-block;
+font-size: 1.1rem;
+}
+.link:hover{
+  color:white;
+}
+.last{
+  height: 70px;
+  background-color:#3f71a7;
+}
+.copyright{
+  font-size: .75rem;
+  color: #EAF6F6;
+  padding-top: 10px;
+}
+.fa {
+  margin-right: 7px;
+}
