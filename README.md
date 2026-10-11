@@ -1,21 +1,23 @@
-# Baljit Singh — Portfolio
+# Baljit Singh — Next.js Portfolio
 
-A responsive, single-page portfolio with a custom dark visual identity, animated hero orb, scroll-driven section reveals, animated marquee, interactive project previews, and mobile navigation.
+Animated single-page portfolio built with Next.js App Router and React. Server-rendered content and client-side interactions. Responsive layouts and reduced-motion support.
 
-## Run locally
+## Local setup
 
-No installation or build is required. Open `index.html` in a browser, or serve the folder using `python3 -m http.server 3000` and visit http://localhost:3000.
+```bash
+npm install
+npm run dev
+```
 
 ## Deploy
 
-Import `baljit64/portfolio` to Vercel as an **Other** framework, leave the build command blank, and use the repository root as output. It also works with GitHub Pages and Netlify.
+Import this repo into Vercel using the Next.js preset.
 
 ## Customize
 
-- Update projects and descriptions in `index.html`.
-- Replace placeholder contact email `hello@baljitsingh.dev` with your real address.
-- Replace the generic LinkedIn link with your profile.
-- Edit palette and motion in `styles.css`.
-- Scroll-reveal and navigation behavior live in `script.js`.
+- `app/page.jsx`: page content and links
+- `app/globals.css`: visual design and animations
+- `app/interactions.jsx`: scroll behavior
+- `app/layout.jsx`: metadata and fonts
 
-All layouts are keyboard accessible and respect `prefers-reduced-motion`. External project links open in a new tab.
+Before launch, replace the placeholder contact email and generic LinkedIn URL.
